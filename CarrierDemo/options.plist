@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>udp_enabled</key>
+	<false/>
+	<key>bootstraps</key>
+	<array>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<dict>
+			<key>ipv4</key>
+			<string></string>
+			<key>ipv6</key>
+			<string></string>
+			<key>public_key</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

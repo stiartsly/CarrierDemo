@@ -1,0 +1,9 @@
+.DS_store
+DerivedData
+Podfile.lock
+Pods
+/build
+CarrierDemo.xcodeproj/xcuserdata
+CarrierDemo.xcodeproj/project.xcworkspace/xcuserdata
+CarrierDemo.xcworkspace
+ElastosCarrier.framework
