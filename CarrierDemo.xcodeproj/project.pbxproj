@@ -36,8 +36,8 @@
 		17FBAD981E543DD000289C1E /* DeviceInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FBAD971E543DD000289C1E /* DeviceInfoViewController.swift */; };
 		97A516FBDB1A9AE56ACC719A /* Pods_CarrierDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ADF30B8428FCD1413320231 /* Pods_CarrierDemo.framework */; };
 		A310D7AC209411DF00FF0703 /* options.plist in Resources */ = {isa = PBXBuildFile; fileRef = A310D7AB209411DF00FF0703 /* options.plist */; };
+		A359018720A1811A006310FF /* ElastosCarrier.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A359018620A1811A006310FF /* ElastosCarrier.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A3918F422090C2F600BE4486 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3918F412090C2F600BE4486 /* StoreKit.framework */; };
-		A3D5903420A138370006CA0F /* ElastosCarrier.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A3D5903320A138370006CA0F /* ElastosCarrier.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,7 +47,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A3D5903420A138370006CA0F /* ElastosCarrier.framework in Embed Frameworks */,
+				A359018720A1811A006310FF /* ElastosCarrier.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,8 +192,8 @@
 		83BA379AEDC5DE0C0C5309AA /* Pods-CarrierDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrierDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarrierDemo/Pods-CarrierDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8503E4E4167EFE9BAA2B542C /* Pods-CarrierDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrierDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarrierDemo/Pods-CarrierDemo.release.xcconfig"; sourceTree = "<group>"; };
 		A310D7AB209411DF00FF0703 /* options.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = options.plist; sourceTree = "<group>"; };
+		A359018620A1811A006310FF /* ElastosCarrier.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ElastosCarrier.framework; sourceTree = "<group>"; };
 		A3918F412090C2F600BE4486 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		A3D5903320A138370006CA0F /* ElastosCarrier.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ElastosCarrier.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -481,7 +481,7 @@
 		31FE7E21A949003346032958 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A3D5903320A138370006CA0F /* ElastosCarrier.framework */,
+				A359018620A1811A006310FF /* ElastosCarrier.framework */,
 				A3918F412090C2F600BE4486 /* StoreKit.framework */,
 				179C62EC1F160FEB00B1E271 /* libiconv.tbd */,
 				179C62EA1F160FDF00B1E271 /* libz.tbd */,
@@ -811,6 +811,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = XGJ9J7DHP5;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -842,6 +843,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = XGJ9J7DHP5;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
