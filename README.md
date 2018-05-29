@@ -1,7 +1,7 @@
 Carrier Demo
-===========================
+============
 
-Carrier Demo is an application to show what can do over carrier network. It shows you can use App to control each other with p2p technology.
+Carrier Demo is a demo application to show what can do over carrier network. It shows you can use this app to control each other via NAT traversal.
 
 ## Feaures:
 
@@ -16,10 +16,12 @@ The items for remote control currently includes:
 
 You should get source code from the following repository on github.com:
 
+```shell
+$ git clone https://github.com/stiartsly/CarrierDemo.git
+$ cd CarrierDemo
+$ open -a Xcode CarrierDemo.xcworkspace
 ```
-https://github.com/stiartsly/CarrierDemo.git
-```
-Then open this xcode project with Apple xcode to build it.
+Then you can use Apple Xcode to build it.
 
 ## Build dependencies
 

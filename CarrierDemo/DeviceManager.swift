@@ -107,10 +107,11 @@ class DeviceManager : NSObject {
                 options.udpEnabled = true
                 options.persistentLocation = carrierDirectory
                 
-                try carrierInst = Carrier.getInstance(options: options, delegate: self)
+                try Carrier.initializeInstance(options: options, delegate: self)
                 print("carrier instance created")
                 
                 networkManager = nil
+                carrierInst = Carrier.getInstance()
 
                 try! carrierInst.start(iterateInterval: 1000)
                 print("carrier started, waiting for ready")
